@@ -1,0 +1,74 @@
+ * {
+        margin:0; 
+        padding:0;
+
+    }
+
+    nav {
+        margin:auto;
+        text-align: center;
+        width: 100%;
+        font-family: arial;
+    } 
+
+    nav {
+        background:#37988e;
+        padding: 0 20px;
+        list-style: none;
+        position: relative;
+        display: inline-table;
+        width: 100%;
+     }
+
+     nav h2{
+
+        text-align: center;
+        line-height: 100%;
+     }
+
+
+.simpan{
+    margin-top: 25px;
+ }
+
+.tambah a{
+    float: right;
+    font-size: 23px;
+    padding: 7px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.75);
+    transition: .7s;
+}
+
+.tambah a:hover{
+    background-color: lightgreen;
+    color: white;
+    float: right;
+    font-size: 23px;
+    border-radius: 5px;
+}
+
+table{
+    width: 65%;
+    margin: auto;
+    margin-bottom: 75px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+    border-radius: 10px;
+}
+
+.hapus{
+    color: red;
+    transition: .7s;
+}
+
+table tr td a:hover{
+    color: lightskyblue;
+    transform: rotate(360deg);
+
+}
+
+.tmbh-data{
+    width: 80%;
+    margin: auto;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.25);
+    border-radius: 10px;
+}
